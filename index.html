@@ -3,12 +3,301 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-</head>
+	<title>Page 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-<p>This is my first web</p>
-<p>1231231231231</p>
-<body>
+
+<script type="text/javascript" src='script.js'></script>
+
+<p id='test'>Hello</p>
+<p>123</p>
+<h2 id='test2'></h2>
+
+<button ondrag ='remove()'>Click to move</button>
+
+<button onclick='color()'>Click to change color</button>
+
+<button onclick='seedate()'>Click to see date</button>
+
+<img id='img' src='car.jpg' height='50px' width='50px'>
+<button onclick='big()'>Click it to make it bigger</button>
+<button onclick='small()'>Click it to make it smaller</button>
+
+
+
+<!--Practice:game-->
+<button onclick='game()'>Start page</button>
+<h1 id='res'></h1>
+
+
+<!--Practice:guess number-->
+<button onclick="guess()">Start to guess</button>
+
+
+
+<p class='pa'>First</p>
+<p class='pa'>Second</p>
+<p class='pa'>Third</p>
+<button onclick='change()'>Chass change</button>
+
+
+<p class='p'>Tony</p>
+<p class='p'>John</p>
+<p class='p'>Jason</p>
+<input type='text' name='firstname' id='input1' value=''>
+<button onclick='change1()'>Name change</button>
+
+
+
+<input type='text' name='name' id='input2' value=''>
+<button onclick='change2()'>Number change</button>
+
+
+
+<style>
+h1{
+	color: red;
+	border: 1px solid black;
+	background-color: white;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;Hello
+}
+
+
+	table,th,td{
+		border:1px solid black;
+		border-radius: 20px;
+	}
+	body{
+		  background-color: lightblue;
+	}
+	a{
+	 
+		text-decoration:none
+}
+a:hover{
+	background-color: white;
+	color: black;
+}
+
+td:hover{
+	background-color: green;
+	color: yellow;
+}
+#tony:hover{
+	background-color: white;
+	color: red;
+}
+.number:hover{
+	background-color:red ;
+	color: white;
+}
+.id:hover{
+	background-color: pink;
+	color: white;
+}
+*{
+	color: red;
+}
+ol li{
+	font-family: impact;
+}
+tr td{
+	text-decoration: underline;
+}
+ol{
+	list-style: none;
+}
+
+ul{
+
+	list-style-type: square;
+}
+h1{
+	text-shadow:1px 1px 3px blue ;
+	text-align: center;
+}
+
+
+a{
+	background-color: black;
+	color: white;
+	padding: 5px;
+    font-size: 32px;
+
+}
+#nav{
+	margin-left: -8px;
+	margin-top: -8px;
+	float: ;
+}
+
+.m{
+	margin-left: -2px;
+}
+li{
+	display: block;
+}
+
+.col{
+width: 45%;
+float: left;
+margin-left: 50px;
+}
+.demo{
+height: 300px;
+background-color: pink;
+}
+.demo1{
+margin-top:10px;
+height: 200px;
+background-color: lightgreen;
+}
+.sport{
+width: 30%;
+float: left;
+text-align: center;
+}
+
+#one{
+	margin-bottom: 0px;
+}
+#two{
+	margin-top: 200px;
+}
+
+/*this is a comment*/
+</style>
+
+
+
+</head>
+<body onload='abc()'>
+<img id='one' height='300px' width='400px' src="https://eie.org/sites/default/files/styles/max_650x650/public/2020-08/Image%20DDD.jpg?itok=4AhRO7xI"&gt;><br>
+ <img id='two' height='100px' width='100px' src="https://photoresources.wtatennis.com/photo-resources/2019/08/15/dbb59626-9254-4426-915e-57397b6d6635/tennis-origins-e1444901660593.jpg?width=1200&height=630"&gt;>
+
+
+<div id="nav">
+<center>
+	<a href='Home page.html'>Home</a>
+	<a class='m' href='Home page.html'>Intro</a>
+	<a class='m' href ='Home page.html'>Contact</a>
+	<a class='m'href='Home page.html'>Register</a>
+</center>
+</div>
+
+<h1>This is a new page</h1>
+<table>
+<tr>
+	<th>ID</th>
+	<th>Name</th>
+	<th>Age</th>
+</tr>
+
+<tr>
+	<td class="id">001</td>
+	<td id="tony">Tony</td>
+	<td class="number">15</td>
+</tr>
+
+
+<tr>
+	<td class="id">002</td>
+	<td>Alice</td>
+	<td class="number">16</td>
+		
+</tr>
+</table>
+<ol>
+	<li>tony</il>
+	<li>john</li>
+</ol>
+<ul>
+	<li>tony</li>
+	<li>john</li>
+</ul>
+
+
+
+<form action="123.php">
+
+<label>Name:</label>
+<input type="text" name="name"><br>
+<label>Password:</label>
+<input type="text" name="password"><br>
+<label>Email:</label>
+<input type="text" name="Email"><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender">
+<label>Male</label>
+<input type="radio" name="gender">
+<label>Female</label><br>
+
+<label>Date of Birth</label>
+<input type="date" name="dob"><br>
+
+<label>Favorite Color:</label>
+<input type="color" name="color"><br>
+
+<label>File:</label>
+<input type="file" name="file"><br>
+
+<label>Email</label>
+<input type="email" name=""><br>
+
+<label>Budget:</label>
+<input type="range" name="" min='0' max='100' step="100"><br>
+
+<label>Sports:</label>
+<input type="checkbox" name="basketball">
+<label>basketball</label>
+<input type="checkbox" name="soccer">
+<label>soccer</label>
+<input type="checkbox" name="tennis">
+<label>tennis</label>
+
+<input type="submit" name="submit">
+<button>submit</button><br>
+
+<label>Sports:</label>
+<select>
+	<option>basketball</option>
+	<option>soccer</option>
+	<option>tennis</option>
+</select><br>
+
+</form>
+
+<div class='demo'><div class='col'>
+        <img height='300px' width='400px' src="https://eie.org/sites/default/files/styles/max_650x650/public/2020-08/Image%20DDD.jpg?itok=4AhRO7xI"&gt;>
+    </div>
+
+    <div class='col'>
+        <h2>Our Impact</h2>
+        <p>Rigorous, research-based design is the foundation of each unit in our curricula and our professional development training. With our recently published randomized controlled study results, active ongoing pilots for curricula, and research-based best practices, our proven methodology and approach is continually validated with teachers and parents—just like you. Learn more about the efficacy of Engineering is Elementary.</p>
+    </div>
+</div>
+
+
+<div class="demo1"> <div class="sport">
+            <img height='100px' width='100px' src="https://artwork.espncdn.com/categories/cd70a58e-a830-330c-93ed-52360b51b632/1x1Feature/1440_201903062023.jpg"&gt;>
+            <p>basketball</p>
+    </div>
+            <div class='sport'>
+            <img height='100px' width='100px' src="https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg?q=60"&gt;>
+            <p>soccer</p>
+    </div>
+            <div class="sport">
+            <img height='100px' width='100px' src="https://photoresources.wtatennis.com/photo-resources/2019/08/15/dbb59626-9254-4426-915e-57397b6d6635/tennis-origins-e1444901660593.jpg?width=1200&height=630"&gt;>
+            <p>tennis</p>
+    </div>
+    </div>
 
 </body>
 </html>
+
+
+
